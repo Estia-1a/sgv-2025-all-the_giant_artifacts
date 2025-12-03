@@ -1,3 +1,16 @@
 .title {
 
 }
+html{background-color: black;}
+body {
+    /* style */
+    width: 90%;
+    margin: auto;
+    background-color: white;
+    display:flex;
+    
+}
+boite{
+    
+}
+
