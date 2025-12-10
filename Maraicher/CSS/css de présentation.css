@@ -16,13 +16,16 @@ h1 {
     
 }
 
-header img {
+
+
+body img {
     /* style */
     width: 4em;
     height: 4em;
     padding-left: 2em;
     padding-right: 2em;
 }
+
 #right {
     
     flex-grow : 1;
