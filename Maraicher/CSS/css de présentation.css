@@ -1,14 +1,15 @@
 html{background-color: white;}
 
 body {
-    
+    display:flex;
     width: 90%;
     margin: auto;
     background-color: white;
     display:flex;
-    align-items:flex-start;
-    
+    flex-direction: column;
 }
+
+
 h1 {
     display : flex;
     font-size: 4em;
@@ -18,18 +19,6 @@ h1 {
 }
 
 
-<<<<<<< HEAD
-=======
-
-body img {
-    /* style */
-    width: 4em;
-    height: 4em;
-    padding-left: 2em;
-    padding-right: 2em;
-}
-
->>>>>>> origin/main
 #right {
     display :flex;
     
@@ -45,8 +34,9 @@ body img {
 }
 liste_des_produits{
     display : flex;
-    align-items: left;
+    align-items:left;
     flex-direction: column;
+    align-content:center;
 }
 container1{
     display:flex;
