@@ -1,15 +1,16 @@
 html{background-color: white;}
 
 body {
-    /* style */
+    
     width: 90%;
     margin: auto;
     background-color: white;
     display:flex;
+    align-items:flex-start;
     
 }
 h1 {
-    /* style */
+    display : flex;
     font-size: 4em;
     margin-top: 0em;
     margin-bottom: 0em;
@@ -17,6 +18,8 @@ h1 {
 }
 
 
+<<<<<<< HEAD
+=======
 
 body img {
     /* style */
@@ -26,16 +29,44 @@ body img {
     padding-right: 2em;
 }
 
+>>>>>>> origin/main
 #right {
+    display :flex;
     
-    flex-grow : 1;
     text-align: right;
 }
 
 #left {
+    display:flex;
+    text-align: left;
+    
+    align-items: left;
    
-    flex-grow : 1;
+}
+liste_des_produits{
+    display : flex;
+    align-items: left;
+    flex-direction: column;
+}
+container1{
+    display:flex;
+    flex-direction: row;
+    gap : 10px
+}
+
+container2{
     display: flex;
-    align-items: center;
-   
+    flex-direction:row;
+    gap:10px;
+}
+
+container3{
+    display: flex;
+    flex-direction:row;
+    gap:10px;
+}
+container4{
+    display: flex;
+    flex-direction:row;
+    gap:10px;
 }
