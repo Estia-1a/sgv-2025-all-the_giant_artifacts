@@ -3,135 +3,125 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link href="CSS/css de présentation.css" rel ="stylesheet">
-    <title>Le marché de Roger</title>
-    
+    <link rel="stylesheet" href="C:\Users\raphael.prades\OneDrive - ESTIA\Documents\ccs presentation maraicher.css">
+    <title>Le Marché de Roger</title>
 </head>
+
 <body>
-    <header>
-        <div id="left">
-            
-            <img src="https://thumbs.dreamstime.com/b/ic%C3%B4ne-de-trois-barres-mesure-symbole-menu-%C3%A9l%C3%A9ment-conception-moderne-d-ensemble-signe-plat-noir-simple-vecteur-avec-les-coins-110910924.jpg" height="80" title="menu">
-            <h1 title> Le Marché de Roger </h1>
 
+<header>
+    <div class="header-left">
+        <img src="https://thumbs.dreamstime.com/b/ic%C3%B4ne-de-trois-barres-mesure-symbole-menu-%C3%A9l%C3%A9ment-conception-moderne-d-ensemble-signe-plat-noir-simple-vecteur-avec-les-coins-110910924.jpg"
+             alt="menu" class="menu-icon">
+        <h1>Le Marché de Roger</h1>
+    </div>
+
+    <div class="search-bar">
+        <input type="text" placeholder="Rechercher un produit...">
+    </div>
+
+    <div class="header-right">
+        <button>Se connecter</button>
+        <button>Panier</button>
+        <button>Aide</button>
+    </div>
+</header>
+
+<main>
+
+<section class="categorie">
+    <h2>🥕 Produits de saison</h2>
+    <div class="produits">
+
+        <div class="produit">
+            <p>Carottes</p>
+            <img src="https://th.bing.com/th/id/OIP.g1wtvTgAACfz1TetH1QQnQHaEK" alt="Carottes">
+            <a href="#">Ajouter au panier</a>
         </div>
-        <div id="right">
-            <img src="https://th.bing.com/th/id/OIP.WIOKirT7ToxzfckAx4vfTAHaI8?w=149&h=180&c=7&r=0&o=7&dpr=1.3&pid=1.7&rm=3"  height="15"  title="se connecter">
-            <img src="https://img.freepik.com/vecteurs-premium/panier-ligne-icone-vector-design-logo-illustration_929446-67.jpg" height="15" title="panier">
-            <image src="https://th.bing.com/th?q=Point+D%27interrogation+Noir+PNG&w=120&h=120&c=1&rs=1&qlt=70&o=7&cb=1&dpr=1.3&pid=InlineBlock&rm=3&ucfimg=1&mkt=fr-FR&cc=FR&setlang=fr&adlt=moderate&t=1&mw=247"  height="15"    title="aide"></image>
 
-        </div> 
-    
-    </header>
-    <div id ="liste_des_produits">
-        <div id ="container1">
-            <h2>Produits de saisons</h2>
+        <div class="produit">
+            <p>Betteraves</p>
+            <img src="https://th.bing.com/th/id/OIP.ReCv35mXV7oE1UMKENRyzAHaFj" alt="Betteraves">
+            <a href="#">Ajouter au panier</a>
+        </div>
 
-            <div id="case_carottes"> 
-                <p>carottes</p>
-                <image src="https://th.bing.com/th/id/OIP.g1wtvTgAACfz1TetH1QQnQHaEK?w=315&h=180&c=7&r=0&o=7&cb=ucfimg2&dpr=1.3&pid=1.7&rm=3&ucfimg=1"  height="25"    title="Carottes"></image>
-                <lien>Ajouter aux panier</lien>  
-            </div>
+        <div class="produit">
+            <p>Oignons</p>
+            <img src="https://th.bing.com/th/id/OIP.YhtL7_M2OjJ16miTIjq_RQHaE8" alt="Oignons">
+            <a href="#">Ajouter au panier</a>
+        </div>
 
-            <div id="case_betteraves"> 
-                <p>betteraves</p>
-                <image src="https://th.bing.com/th/id/OIP.ReCv35mXV7oE1UMKENRyzAHaFj?w=276&h=207&c=7&r=0&o=7&cb=ucfimg2&dpr=1.3&pid=1.7&rm=3&ucfimg=1"  height="25"    title="betteraves"></image>
-                <lien>Ajouter aux panier</lien>  
-            </div>
+        <div class="produit">
+            <p>Navets</p>
+            <img src="https://th.bing.com/th/id/OIP.gcr39g3BjE4urOrUg0cnwAHaD4" alt="Navets">
+            <a href="#">Ajouter au panier</a>
+        </div>
 
-            <div id="case_oignons"> 
-                <p>oignons</p>
-                <image src="https://th.bing.com/th/id/OIP.YhtL7_M2OjJ16miTIjq_RQHaE8?w=253&h=180&c=7&r=0&o=7&cb=ucfimg2&dpr=1.3&pid=1.7&rm=3&ucfimg=1"  height="25"    title="oignons"></image>
-                <lien>Ajouter aux panier</lien>  
-            </div>
-            
-            <div id="case_navets"> 
-                <p>navets</p>
-                <image src="https://th.bing.com/th/id/OIP.gcr39g3BjE4urOrUg0cnwAHaD4?w=255&h=180&c=7&r=0&o=7&cb=ucfimg2&dpr=1.3&pid=1.7&rm=3&ucfimg=1"  height="25"    title="navets"></image>
-                <lien>Ajouter aux panier</lien>  
-            </div>
+    </div>
+</section>
 
-            <div id="case_radis"> 
-                <p>radis</p>
-                <image src="https://th.bing.com/th/id/OIP.5mKaVnRWeFalwripIZIgHAHaHa?w=162&h=180&c=7&r=0&o=7&cb=ucfimg2&dpr=1.3&pid=1.7&rm=3&ucfimg=1"  height="25"    title="radis"></image>
-                <lien>Ajouter aux panier</lien>  
-            </div>
-        </div id ="container1">
+<section class="categorie promo">
+    <h2>🔥 Promotions</h2>
+    <div class="produits">
 
-        <div id ="container2">
-            <h2>Promos</h2>
-            <div id="case_pommes"> 
-                <p>pommes</p>
-                <image src="https://th.bing.com/th/id/OIP.-9dKj7q0whMFSa6mtKdPhQHaE8?w=262&h=180&c=7&r=0&o=7&cb=ucfimg2&dpr=1.3&pid=1.7&rm=3&ucfimg=1"  height="25"    title="pommes"></image>
-                <lien>Ajouter aux panier</lien>  
-            </div>
-            <div id="case_ail"> 
-                <p>ail</p>
-                <image src="https://th.bing.com/th/id/OIP.mbW52NegYUvqOfhXU7vlaAHaE9?w=242&h=180&c=7&r=0&o=7&cb=ucfimg2&dpr=1.3&pid=1.7&rm=3&ucfimg=1"  height="25"    title="ail"></image>
-                <lien>Ajouter aux panier</lien>  
-            </div>
-            
-            <div id="case_potiron"> 
-                <p>potiron</p>
-                <image src="https://th.bing.com/th/id/OIP.8F1sn_b6vCqjvMXSmpvGHwHaFj?w=272&h=204&c=7&r=0&o=7&cb=ucfimg2&dpr=1.3&pid=1.7&rm=3&ucfimg=1"  height="25"    title="potiron"></image>
-                <lien>Ajouter aux panier</lien>  
-            </div>
-            
-            <div id="case_citrouille"> 
-                <p>citrouille</p>
-                <image src="https://th.bing.com/th/id/OIP.Pc1Q8Tk8CEJ8fm9JsRim5gHaHa?w=151&h=180&c=7&r=0&o=7&cb=ucfimg2&dpr=1.3&pid=1.7&rm=3&ucfimg=1"  height="25"    title="citrouille"></image>
-                <lien>Ajouter aux panier</lien>  
-            </div>
-        </div id ="container2">
+        <div class="produit">
+            <p>Pommes</p>
+            <img src="https://th.bing.com/th/id/OIP.-9dKj7q0whMFSa6mtKdPhQHaE8" alt="Pommes">
+            <a href="#">Ajouter au panier</a>
+        </div>
 
-        <div id="container3">
-            <h2>Fruits</h2>
-            <div id="case_bananes"> 
-                <p>bananes</p>
-                <image src="https://th.bing.com/th/id/OIP.bQlwmXTW4d0meBg7QE6iigHaFL?w=280&h=195&c=7&r=0&o=7&cb=ucfimg2&dpr=1.3&pid=1.7&rm=3&ucfimg=1"  height="25"    title="bananes"></image>
-                <lien>Ajouter aux panier</lien>  
-            </div>
+        <div class="produit">
+            <p>Potiron</p>
+            <img src="https://th.bing.com/th/id/OIP.8F1sn_b6vCqjvMXSmpvGHwHaFj" alt="Potiron">
+            <a href="#">Ajouter au panier</a>
+        </div>
 
-            <div id="case_fraises"> 
-                <p>fraises</p>
-                <image src="https://th.bing.com/th/id/OIP.9CKLqvNRjpRN0KRTVCDHrQHaE8?w=250&h=180&c=7&r=0&o=7&cb=ucfimg2&dpr=1.3&pid=1.7&rm=3&ucfimg=1"  height="25"    title="fraises"></image>
-                <lien>Ajouter aux panier</lien>  
-            </div>
+    </div>
+</section>
 
-            <div id="case_framboises"> 
-                <p>framboises</p>
-                <image src="https://th.bing.com/th/id/OIP.OIgl5Jk9t3YZhIYVXxavKwHaGS?w=200&h=180&c=7&r=0&o=7&cb=ucfimg2&dpr=1.3&pid=1.7&rm=3&ucfimg=1"  height="25"    title="framboises"></image>
-                <lien>Ajouter aux panier</lien>  
-            </div>
+<section class="categorie">
+    <h2>🍎 Fruits</h2>
+    <div class="produits">
 
-            <div id="case_ananas"> 
-                <p>ananas</p>
-                <image src="https://th.bing.com/th/id/OIP.mkjAMXxYeD_K4TXRAvIL1AHaEK?w=284&h=180&c=7&r=0&o=7&cb=ucfimg2&dpr=1.3&pid=1.7&rm=3&ucfimg=1"  height="25"    title="ananas"></image>
-                <lien>Ajouter aux panier</lien>  
-            </div>
-        </div id="container3">
+        <div class="produit">
+            <p>Bananes</p>
+            <img src="https://th.bing.com/th/id/OIP.bQlwmXTW4d0meBg7QE6iigHaFL" alt="Bananes">
+            <a href="#">Ajouter au panier</a>
+        </div>
 
-        <div id="container4">
-            <h2>Légumes</h2>
-            <div id="case_courgettes"> 
-                <p>courgettes</p>
-                <image src="https://th.bing.com/th/id/OIP.vvCEjLvDmh4u-9Ow9d7g_wHaE-?w=295&h=197&c=7&r=0&o=7&cb=ucfimg2&dpr=1.3&pid=1.7&rm=3&ucfimg=1"  height="25"    title="courgettes"></image>
-                <lien>Ajouter aux panier</lien>  
-            </div>
-            
-            <div id="case_haricots verts"> 
-                <p>haricots verts</p>
-                <image src="https://th.bing.com/th/id/OIP.55QmYabBV9hMy8fh1W2f4wHaE7?w=305&h=204&c=7&r=0&o=7&cb=ucfimg2&dpr=1.3&pid=1.7&rm=3&ucfimg=1"  height="25"    title="haricots verts"></image>
-                <lien>Ajouter aux panier</lien>  
-            </div>
+        <div class="produit">
+            <p>Fraises</p>
+            <img src="https://th.bing.com/th/id/OIP.9CKLqvNRjpRN0KRTVCDHrQHaE8" alt="Fraises">
+            <a href="#">Ajouter au panier</a>
+        </div>
 
-            <div id="case_haricots blancs"> 
-                <p>haricots blancs</p>
-                <image src="https://th.bing.com/th/id/OIP.4nCtcCXbhG_tkgq8ms7qtQHaE8?w=266&h=180&c=7&r=0&o=7&cb=ucfimg2&dpr=1.3&pid=1.7&rm=3&ucfimg=1"  height="25"    title="haricots blancs"></image>
-                <lien>Ajouter aux panier</lien>  
-            </div>         
-        </div id ="container4">
+    </div>
+</section>
 
-    </liste_des_produits>
+<section class="categorie">
+    <h2>🥦 Légumes</h2>
+    <div class="produits">
+
+        <div class="produit">
+            <p>Courgettes</p>
+            <img src="https://th.bing.com/th/id/OIP.vvCEjLvDmh4u-9Ow9d7g_wHaE-" alt="Courgettes">
+            <a href="#">Ajouter au panier</a>
+        </div>
+
+        <div class="produit">
+            <p>Haricots verts</p>
+            <img src="https://th.bing.com/th/id/OIP.55QmYabBV9hMy8fh1W2f4wHaE7" alt="Haricots verts">
+            <a href="#">Ajouter au panier</a>
+        </div>
+
+    </div>
+</section>
+
+</main>
+
+<footer>
+    <p>© 2026 - Le Marché de Roger</p>
+</footer>
+
 </body>
 </html>
